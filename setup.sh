@@ -27,4 +27,4 @@ sudo apt-get install -y php7.2-bz2 php7.2-curl php7.2-gd php7.2-json php7.2-mbst
 echo "* Installing additional PHP extensions..."
 sudo apt-get install -y php-memcache php-memcached  > /dev/null
 
-echo "* Setup complete. You may now use the 'switch-to-php-*.*.sh' scripts."
+echo "* Setup complete. You may now use the 'run-*.*.sh' scripts."
