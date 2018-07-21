@@ -1,4 +1,6 @@
-# 🔄 PHP Switch Scripts
+# PHP Switch Scripts
+# I CHANGE THE SCRIPT TO USE ONLY 5.6 and 7.2.
+# CHANGE THE SCRIPT FILE NAMES, TO MORE SHORT.
 
 These scripts are designed to aid in the setup of and switching between multiple PHP versions in Ubuntu 14.04 LTS or newer.
 
@@ -30,8 +32,8 @@ Server version: Apache/2.4.18 (Ubuntu)
 First, clone the repository, and change directory if you have not already done so.
 
 ```
-git clone https://github.com/rapidwebltd/php-switch-scripts.git
-cd php-switch-scripts
+git clone https://github.com/mauroagr/php-switch-scripts.git troca_php
+cd troca_php
 ```
 
 Next, to setup all the supported PHP versions and common PHP extensions for them, you just need to run the `setup.sh` script. This is shown below.
@@ -45,7 +47,7 @@ This may take some time depending on your system and connection speed. It will a
 When you see a message similar to the following, setup is complete and you are ready to switch between PHP versions at will.
 
 ```
-* Setup complete. You may now use the 'switch-to-php-*.*.sh' scripts.`
+* Setup complete. You may now use the 'run-*.*.sh' scripts.`
 ```
 
 ## Usage
@@ -53,10 +55,8 @@ When you see a message similar to the following, setup is complete and you are r
 Once setup is complete, you can easily switch between different PHP versions using the appropriately named scripts. Examples are shown below.
 
 ```
-./switch-to-php-5.6.sh
-./switch-to-php-7.0.sh
-./switch-to-php-7.1.sh
-./switch-to-php-7.2.sh
+./run-5.6.sh
+./run-7.2.sh
 ```
 
 This will alter the versions of PHP running in Apache and the command line. Your password will be required to enable/disable Apache modules, restart the web server and alter the default PHP CLI version.
